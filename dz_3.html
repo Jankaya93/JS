@@ -1,0 +1,56 @@
+<!DOCTYPE html> <!--  -->
+<html lang="ru"> <!--  язык сайта -->
+
+<head>
+    <meta charset="UTF-8"> <!--  # кодировка-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- # мета-тег для корректного отображения в браузере интернет эксплоер /эдже-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  # для отображения в мобильной версии и ноутбуках-->
+    <link rel="stylesheet" href="./assets/style.css"> <!-- подключили стили -->
+    <title>домашка Орешка</title>
+</head>
+
+<body>
+
+    <script language="JavaScript">
+        function showMassege() {
+            alert("Привет, " + name)
+        }
+        let name = prompt("Как можно к вам обращаться?");
+        showMassege();
+    </script>
+    <p> Основное задание </p>
+    <p> 1) Создать страницу, которая спрашивает имя у пользователя и выводит его с помощью функции.
+    </p>
+    <p> 2) Перепишите код, используя конструкцию switch-case, запрашивая возраст пользователя через диалоговое окно.
+    </p>
+    <script language="JavaScript">
+        let age = parseInt(prompt("Сколько Вам лет?"));
+        switch (age) {
+            case 12:
+                alert("да ты совсем малыш")
+                break;
+            case 13:
+                alert("да ты совсем малыш")
+                break;
+            case 14:
+                alert("да ты совсем малыш")
+                break;
+            case 15:
+                alert("да ты совсем малыш")
+                break;
+            case 16:
+                alert("да ты совсем малыш")
+                break;
+            case 17:
+                alert("да ты совсем малыш")
+                break;
+            default:
+                alert("ну уже всё можно")
+        }
+        alert(name + " " + age + " " + "лет")
+    </script>
+</body>
+
+</html>
